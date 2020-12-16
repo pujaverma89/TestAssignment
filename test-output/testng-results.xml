@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="143066" started-at="2020-12-11T21:02:51 CET" finished-at="2020-12-11T21:05:14 CET">
+    <groups>
+      <group name="Regression">
+        <method signature="CreateAccountPageTest.verifyAccountsCreatedSucessfully()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="verifyAccountsCreatedSucessfully" class="com.tacx.testcases.CreateAccountPageTest"/>
+        <method signature="CreateAccountPageTest.verifyUserAlreadyExitsMessage()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="verifyUserAlreadyExitsMessage" class="com.tacx.testcases.CreateAccountPageTest"/>
+        <method signature="CreateWorkoutTest.verifyDashBoardUrl()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="verifyDashBoardUrl" class="com.tacx.testcases.CreateWorkoutTest"/>
+        <method signature="CreateWorkoutTest.verifyDistanceClicked()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="verifyDistanceClicked" class="com.tacx.testcases.CreateWorkoutTest"/>
+        <method signature="DistanceSelectionPageTest.verifyCreateText()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="verifyCreateText" class="com.tacx.testcases.DistanceSelectionPageTest"/>
+        <method signature="DistanceSelectionPageTest.verifyDistanceValue()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="verifyDistanceValue" class="com.tacx.testcases.DistanceSelectionPageTest"/>
+        <method signature="HomePageTest.verifyDashBoardUrl()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="verifyDashBoardUrl" class="com.tacx.testcases.HomePageTest"/>
+        <method signature="HomePageTest.verifyTacxLogo()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="verifyTacxLogo" class="com.tacx.testcases.HomePageTest"/>
+        <method signature="SignupPageTest.verifyCreateAccountButtonRedirectsToCreatePage()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="verifyCreateAccountButtonRedirectsToCreatePage" class="com.tacx.testcases.SignupPageTest"/>
+        <method signature="SignupPageTest.verifyHomePageTitleTest()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="verifyHomePageTitleTest" class="com.tacx.testcases.SignupPageTest"/>
+        <method signature="WorkoutsPageTest.verifyTitleAndWorkOutName()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="verifyTitleAndWorkOutName" class="com.tacx.testcases.WorkoutsPageTest"/>
+        <method signature="WorkoutsPageTest.verifyWorkoutTitleName()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="verifyWorkoutTitleName" class="com.tacx.testcases.WorkoutsPageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="143066" started-at="2020-12-11T21:02:51 CET" finished-at="2020-12-11T21:05:14 CET">
+      <class name="com.tacx.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="setup" is-config="true" duration-ms="10230" started-at="2020-12-11T21:03:30 CET" finished-at="2020-12-11T21:03:40 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDashBoardUrl()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="verifyDashBoardUrl" duration-ms="90" started-at="2020-12-11T21:03:40 CET" finished-at="2020-12-11T21:03:40 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="tearDown" is-config="true" duration-ms="889" started-at="2020-12-11T21:03:40 CET" finished-at="2020-12-11T21:03:41 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="setup" is-config="true" duration-ms="10207" started-at="2020-12-11T21:03:41 CET" finished-at="2020-12-11T21:03:51 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTacxLogo()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="verifyTacxLogo" duration-ms="3060" started-at="2020-12-11T21:03:51 CET" finished-at="2020-12-11T21:03:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTacxLogo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.HomePageTest@1060b431]" name="tearDown" is-config="true" duration-ms="984" started-at="2020-12-11T21:03:54 CET" finished-at="2020-12-11T21:03:55 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.HomePageTest -->
+      <class name="com.tacx.testcases.CreateWorkoutTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="setup" is-config="true" duration-ms="8749" started-at="2020-12-11T21:03:55 CET" finished-at="2020-12-11T21:04:04 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDashBoardUrl()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="verifyDashBoardUrl" duration-ms="1371" started-at="2020-12-11T21:04:04 CET" finished-at="2020-12-11T21:04:05 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashBoardUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="tearDown" is-config="true" duration-ms="1582" started-at="2020-12-11T21:04:05 CET" finished-at="2020-12-11T21:04:07 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="setup" is-config="true" duration-ms="8706" started-at="2020-12-11T21:04:07 CET" finished-at="2020-12-11T21:04:16 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDistanceClicked()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="verifyDistanceClicked" duration-ms="1986" started-at="2020-12-11T21:04:16 CET" finished-at="2020-12-11T21:04:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistanceClicked -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.CreateWorkoutTest@612679d6]" name="tearDown" is-config="true" duration-ms="777" started-at="2020-12-11T21:04:18 CET" finished-at="2020-12-11T21:04:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.CreateWorkoutTest -->
+      <class name="com.tacx.testcases.WorkoutsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="setup" is-config="true" duration-ms="13616" started-at="2020-12-11T21:04:44 CET" finished-at="2020-12-11T21:04:58 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleAndWorkOutName()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="verifyTitleAndWorkOutName" duration-ms="45" started-at="2020-12-11T21:04:58 CET" finished-at="2020-12-11T21:04:58 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleAndWorkOutName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="tearDown" is-config="true" duration-ms="851" started-at="2020-12-11T21:04:58 CET" finished-at="2020-12-11T21:04:59 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="setup" is-config="true" duration-ms="13453" started-at="2020-12-11T21:04:59 CET" finished-at="2020-12-11T21:05:12 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyWorkoutTitleName()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="verifyWorkoutTitleName" duration-ms="1135" started-at="2020-12-11T21:05:12 CET" finished-at="2020-12-11T21:05:13 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWorkoutTitleName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.WorkoutsPageTest@e720b71]" name="tearDown" is-config="true" duration-ms="855" started-at="2020-12-11T21:05:13 CET" finished-at="2020-12-11T21:05:14 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.WorkoutsPageTest -->
+      <class name="com.tacx.testcases.SignupPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="setup" is-config="true" duration-ms="9679" started-at="2020-12-11T21:02:51 CET" finished-at="2020-12-11T21:03:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateAccountButtonRedirectsToCreatePage()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="verifyCreateAccountButtonRedirectsToCreatePage" duration-ms="164" started-at="2020-12-11T21:03:01 CET" finished-at="2020-12-11T21:03:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccountButtonRedirectsToCreatePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="809" started-at="2020-12-11T21:03:01 CET" finished-at="2020-12-11T21:03:02 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="setup" is-config="true" duration-ms="6426" started-at="2020-12-11T21:03:02 CET" finished-at="2020-12-11T21:03:08 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="verifyHomePageTitleTest" duration-ms="25" started-at="2020-12-11T21:03:08 CET" finished-at="2020-12-11T21:03:08 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.SignupPageTest@eafc191]" name="tearDown" is-config="true" duration-ms="802" started-at="2020-12-11T21:03:08 CET" finished-at="2020-12-11T21:03:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.SignupPageTest -->
+      <class name="com.tacx.testcases.DistanceSelectionPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="setup" is-config="true" duration-ms="11379" started-at="2020-12-11T21:04:18 CET" finished-at="2020-12-11T21:04:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateText()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="verifyCreateText" duration-ms="65" started-at="2020-12-11T21:04:30 CET" finished-at="2020-12-11T21:04:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="tearDown" is-config="true" duration-ms="878" started-at="2020-12-11T21:04:30 CET" finished-at="2020-12-11T21:04:31 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="setup" is-config="true" duration-ms="10897" started-at="2020-12-11T21:04:31 CET" finished-at="2020-12-11T21:04:42 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyDistanceValue()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="verifyDistanceValue" duration-ms="1912" started-at="2020-12-11T21:04:42 CET" finished-at="2020-12-11T21:04:43 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDistanceValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.DistanceSelectionPageTest@11758f2a]" name="tearDown" is-config="true" duration-ms="865" started-at="2020-12-11T21:04:43 CET" finished-at="2020-12-11T21:04:44 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.DistanceSelectionPageTest -->
+      <class name="com.tacx.testcases.CreateAccountPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="setup" is-config="true" duration-ms="6727" started-at="2020-12-11T21:03:09 CET" finished-at="2020-12-11T21:03:16 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAccountsCreatedSucessfully()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="verifyAccountsCreatedSucessfully" duration-ms="2780" started-at="2020-12-11T21:03:16 CET" finished-at="2020-12-11T21:03:19 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsCreatedSucessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="tearDown" is-config="true" duration-ms="892" started-at="2020-12-11T21:03:19 CET" finished-at="2020-12-11T21:03:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="setup" is-config="true" duration-ms="6511" started-at="2020-12-11T21:03:20 CET" finished-at="2020-12-11T21:03:26 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUserAlreadyExitsMessage()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="verifyUserAlreadyExitsMessage" duration-ms="2776" started-at="2020-12-11T21:03:26 CET" finished-at="2020-12-11T21:03:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserAlreadyExitsMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tacx.testcases.CreateAccountPageTest@612fc6eb]" name="tearDown" is-config="true" duration-ms="829" started-at="2020-12-11T21:03:29 CET" finished-at="2020-12-11T21:03:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tacx.testcases.CreateAccountPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

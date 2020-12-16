@@ -1,0 +1,6 @@
+1-Getting wrong validation message if email address is wrong 
+ actual- There was an error communicating with the server
+ expected-Email not correct/format not correct
+ Text are overlapping above signUp button
+ 
+2- workout name can be same as there is not unique identity of workout name
