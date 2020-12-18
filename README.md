@@ -31,7 +31,7 @@ Prerequisite:
 
 	6.Eclipse 
 	
-*Usecases executed:* 
+**Usecases executed:**
 
 1.Launched chrome browser and navigate to https://cloud.tacx.com/
 
@@ -54,7 +54,7 @@ Prerequisite:
 10.Generate the test report
 	
 
-*Step to follow to run the test*
+**Step to follow to run the test**
 
 Test can run the tests directly from the eclipse, by right-clicking from TestNG class and Run as TestNG.
 
