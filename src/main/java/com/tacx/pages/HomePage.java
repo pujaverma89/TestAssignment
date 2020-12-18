@@ -1,7 +1,5 @@
 package com.tacx.pages;
 
-import java.sql.Driver;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -10,6 +8,8 @@ import com.tacx.base.TestBase;
 
 public class HomePage extends TestBase {
 
+	// afterlogin redirects to homepage
+	// path declaration for homepage
 	@FindBy(xpath = "//a[@id='sidenav-logo']")
 	WebElement dashBoardPageLogo;
 
@@ -27,12 +27,14 @@ public class HomePage extends TestBase {
 		return driver.getCurrentUrl();
 	}
 
+	// test to checklogo availible on homepage
 	public Boolean verifyTacxLogoDisplay() throws InterruptedException {
 		Thread.sleep(2000);
 		return dashBoardPageLogo.isDisplayed();
-
 	}
 
+	// createworkutlink
+	// redirecttoDistance createworkoutpage
 	public CreateWorkoutPage verifyWorkoutLinkRedirect() throws InterruptedException {
 		createWorkoutLink.click();
 		Thread.sleep(1000);

@@ -32,7 +32,6 @@ public class TestBase {
 			FileInputStream fis = new FileInputStream(
 					System.getProperty("user.dir") + "/src/main/java/com/tacx/config/config.properties");
 			prop.load(fis);
-
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -59,7 +58,7 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 	}
 
-	// login details
+	// login user to createworkout
 	public static void login() throws InterruptedException {
 		driver.get(prop.getProperty("urlLogin"));
 		String loginusername = prop.getProperty("loginemail");
@@ -67,10 +66,10 @@ public class TestBase {
 		String loginpassword = prop.getProperty("loginpassword");
 		driver.findElement(By.id("password")).sendKeys(loginpassword);
 		driver.findElement(By.id("login")).click();
-		Thread.sleep(2000);
+
 	}
 
-	// Screenshot utilities
+	// Screenshot utilities for failure test cases
 	public void takeScreenShotFailedTc(String testMethodName) {
 		File srcfile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		try {

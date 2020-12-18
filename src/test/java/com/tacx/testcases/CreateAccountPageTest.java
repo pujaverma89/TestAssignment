@@ -16,7 +16,7 @@ public class CreateAccountPageTest extends TestBase {
 	public CreateAccountPageTest() {
 		super();
 	}
-    	
+
 	@BeforeMethod(alwaysRun = true)
 	public void setup() {
 		intialization();
@@ -24,13 +24,14 @@ public class CreateAccountPageTest extends TestBase {
 		createaccountpage = signuppage.clickOnCreateAccount();
 	}
 
-	//here to access and verify usercreated succesfully
+	// access and verify usercreated succesfully
 	@Test(groups = "Regression")
 	public void verifyAccountsCreatedSucessfully() throws InterruptedException {
 		log.info("TestCase: VerifyAccount created successfully ");
 		createaccountpage.verifyAccountCreationDetails();
 	}
-	//here to check if useralready exits can create new account
+
+	// check if useralready exits can create new account
 	@Test(groups = "Regression")
 	public void verifyUserAlreadyExitsMessage() throws InterruptedException {
 		log.info("TestCase: Verify validation message for user already exits");

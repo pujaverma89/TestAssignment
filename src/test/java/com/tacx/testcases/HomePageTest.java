@@ -27,7 +27,7 @@ public class HomePageTest extends TestBase {
 		intialization();
 		login();
 		homepage = new HomePage();
-		Thread.sleep(1500);
+		
 	}
 
 	@Test(groups = "Regression")

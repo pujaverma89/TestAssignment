@@ -8,7 +8,8 @@ import com.tacx.base.TestBase;
 
 public class DistanceSelectionPage extends TestBase {
 	CreateWorkoutPage createworkoutpage;
-
+   
+	//pathdeclaration of elements for distance calculateapage
 	@FindBy(xpath = "//h2[contains(text(),'Create')]")
 	WebElement createText;
 
@@ -35,10 +36,12 @@ public class DistanceSelectionPage extends TestBase {
 		PageFactory.initElements(driver, this);
 	}
 
+	//check pagetitletext
 	public String verifylandingPageOfSelectDistance() {
 		return createText.getText();
 	}
-
+ 
+	//calculatethedistance and make it 12
 	public String verifyDistanceValue() {
 		float diff = 0;
 		String str = distanceValue.getText();
@@ -65,7 +68,8 @@ public class DistanceSelectionPage extends TestBase {
 		String st1[] = updatedValue.split(" ", 2);
 		return st1[0];
 	}
-
+    
+	//savebutton and redirect to workoutpage to check if workout exits
 	public WorkoutsPage verifySaveButton() {
 		verifyDistanceValue();
 		saveButton.click();

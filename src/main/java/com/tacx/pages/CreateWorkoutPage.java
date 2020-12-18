@@ -7,7 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.tacx.base.TestBase;
 
 public class CreateWorkoutPage extends TestBase {
-
+    
+	//createweokoutpage class objects and calling methods
 	@FindBy(xpath = "/html[1]/body[1]/section[3]/md-sidenav[1]/div[1]/md-content[1]/ul[1]/sidenav-section[1]/ul[1]/li[4]/button[1]/div[1]")
 	WebElement createWorkoutText;
 
@@ -29,7 +30,7 @@ public class CreateWorkoutPage extends TestBase {
 	public String verifyCreateWorkoutpageTedirected() throws InterruptedException {
 		return createWorkoutText.getText();
 	}
-
+   //action methods for crteateworkout
 	public DistanceSelectionPage verifyClickOnContinue() {
 		createWorkoutText.click();
 		powerworkout.click();
