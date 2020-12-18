@@ -58,7 +58,9 @@ Prerequisite:
 
 Test can run the tests directly from the eclipse, by right-clicking from TestNG class and Run as TestNG.
 
-From commandLine: mvn clean test 
+From commandLine: mvn clean test  
+
+Report can be view by cloning the project and navigating to (TestAssignment/Tacx_Extent.html)
 
 
 
